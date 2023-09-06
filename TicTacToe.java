@@ -3,7 +3,7 @@ package com.mycompany.tictactoe;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
-import java.util.Arrays;
+
 
 public class TicTacToe implements ActionListener {
 
@@ -25,7 +25,6 @@ public class TicTacToe implements ActionListener {
         result = new String[9];
         btn = new JButton("restart");
         btn.setSize(20, 20);
-        Arrays.fill(result, "");
         for (int i = 0; i < 9; i++) {
             btns[i] = new JButton();
             btns[i].setSize(20, 20);
