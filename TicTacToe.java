@@ -98,7 +98,7 @@ public class TicTacToe implements ActionListener {
                     frame.add(btn);
 
                 }
-                if (steps == 9) {
+                if ((!win)&&steps == 9) {
                     label.setText(" Draw !!!");
                     label.setFont(new Font("Arial", Font.BOLD, 20));
                     label.setForeground(Color.GREEN);
